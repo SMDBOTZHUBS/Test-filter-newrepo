@@ -56,8 +56,8 @@ LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SMD_FiltSream:SMD_FiltSream10@cluster0.zdkhv9l.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "cluster10")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Shotnersleech:Shotnersleech10@cluster0.oqp4sri.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Custom Chats
