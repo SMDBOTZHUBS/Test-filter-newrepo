@@ -15,9 +15,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '24652824'))
+API_HASH = environ.get('API_HASH', 'eaca6d81c81f01149442cfeee6dbb4be')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6825470552:AAGJS_myT3Xe2pAdLRX5Sbv5YHQIKvgVv2U")
 
 #rename
 FLOOD = int(environ.get("FLOOD", "10"))
@@ -27,42 +27,42 @@ RENAME_MODE = bool(environ.get("RENAME_MODE"))
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/8142d603291ff2f556daf.jpg https://graph.org/file/e77e1aeca310e33d0c653.jpg https://graph.org/file/17914bf60e095f234063d.jpg https://graph.org/file/188d081c927d4a94edccb.jpg https://graph.org/file/2dac21855207ae35fdc3b.jpghttps://graph.org/file/85b6490b3dc7eb9a424c4.jpg https://graph.org/file/162347d5f0ebbd7a283fc.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/8142d603291ff2f556daf.jpg")
-NEWGRP = environ.get("NEWGRP", "https://graph.org/file/8142d603291ff2f556daf.jpg https://graph.org/file/e77e1aeca310e33d0c653.jpg https://graph.org/file/17914bf60e095f234063d.jpg https://graph.org/file/188d081c927d4a94edccb.jpg https://graph.org/file/2dac21855207ae35fdc3b.jpghttps://graph.org/file/85b6490b3dc7eb9a424c4.jpg https://graph.org/file/162347d5f0ebbd7a283fc.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/91bd6cd35cb853bef9baa.mp4")
-SPELL_IMG = environ.get("https://graph.org/file/fbe7ce3c72b4fbcb92317.jpg", "https://graph.org/file/603fea39b4125eb257f22.jpg")
+PICS = (environ.get('PICS', 'https://graph.org/file/47d57543609f1faddbc6a.jpg https://graph.org/file/fee3dafdacf11af114a59.jpg https://graph.org/file/6038dbae3bd8e5cb44897.jpg https://graph.org/file/f735645d19aabd6d25d17.jpg https://graph.org/file/5ce463e5a2edf56470bb6.jpg https://graph.org/file/e101e043cab0269091c9d.jpg https://graph.org/file/fc2aebe2ebfe6808660ad.jpg https://graph.org/file/93254e40bd10e6fbeae5c.jpg https://graph.org/file/28c43ebc4de422f24b182.jpg https://graph.org/file/8f8cbdf63f0eeb235cc3f.jpg https://graph.org/file/9dbdb9f86952c106f9131.jpg https://graph.org/file/c6ac894696d5157c80964.jpg https://graph.org/file/ed2fb77f665081e916abb.jpg https://graph.org/file/0362105a1347d200a9667.jpg https://graph.org/file/57e5850ec173cc1db68da.jpg https://graph.org/file/473226bc919bd7524069c.jpg https://graph.org/file/1f129ddabdc480c6906af.jpg https://graph.org/file/8e87d194c787909c9c276.jpg https://graph.org/file/9c8504c9e43ad2f818f14.jpg https://graph.org/file/13f8f4d4b920b1ebe8792.jpg https://graph.org/file/a9a1413dee9df96872335.jpg https://graph.org/file/8e8c8912fb6aaf95fe1c2.jpg https://graph.org/file/3bc305e2288b24fd7913d.jpg https://graph.org/file/01ead07a6a742e67fa6bb.jpg https://graph.org/file/6a2dcd1f53f5b52de571c.jpg https://graph.org/file/49b217f0c63f3102a818c.jpg https://graph.org/file/f56a4041c05970f9835e7.jpg https://graph.org/file/3816445f78627859a257c.jpg https://graph.org/file/36eab7c50c2fea1db9c8e.jpg https://graph.org/file/2a73975d17aa75d4037c6.jpg https://graph.org/file/09d93ed056ff26f36fb56.jpg https://graph.org/file/e31b9dea19a627ddb0bfb.jpg https://graph.org/file/e84ad342a34172dbd6a14.jpg https://graph.org/file/1a2c4fa5e06670f7fd185.jpg https://graph.org/file/90872db0d0c6d23da0e29.jpg https://graph.org/file/85e18f57931e0f9498a5a.jpg https://graph.org/file/cb074803c16510e6d1c14.jpg https://graph.org/file/979cc7a3e3aaf5e9b412b.jpg https://graph.org/file/660718b9e623791974493.jpg https://graph.org/file/ef0e2897ddf5c8df82058.jpg https://graph.org/file/d3b93745600f2730a637d.jpg https://graph.org/file/9a3813b0755d25ea63800.jpg https://graph.org/file/55753abeb28db5c7a593b.jpg https://graph.org/file/e11d1f86a5589bae87f26.jpg https://graph.org/file/2bc7aa67b8e1e93265a04.jpg https://graph.org/file/bcbb9e4409c27134cce6c.jpg https://graph.org/file/f857e90b2452888611930.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e0770294280f17df23911.jpg")
+NEWGRP = environ.get("NEWGRP", "https://graph.org/file/d1c70faf9f63382c3c2f4.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/5f4126f0a68828857243f.mp4")
+SPELL_IMG = environ.get("https://graph.org/file/f6466cc7f17f54ab0ff3e.jpg")
 SP = (environ.get('SP', '')).split()
 
 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('5431311680', '6118927515').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('-1001932781121', '0').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('885675538').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('-1002101619333', '0').split()]
 
 
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('5431311680', '6118927515').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('885675538').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('-1001572271892')
-auth_grp = environ.get('-1001764492892')
-AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(-1001572271892) else None
+auth_channel = environ.get('-1001457939263')
+auth_grp = environ.get('')
+AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(-1001457939263) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('-1001566837125')
-reqst_channel = environ.get('-1001905367057')
+support_chat_id = environ.get('')
+reqst_channel = environ.get('')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
-login_channel = environ.get('-1001868871195')
+login_channel = environ.get('-1001956887092')
 LOGIN_CHANNEL = int(login_channel) if login_channel and id_pattern.search(login_channel) else None
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SMD_FiltSream:SMD_FiltSream10@cluster0.zdkhv9l.mongodb.net/?retryWrites=true&w=majority").split()
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Custom Chats
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001905367057'))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+kdCUBx0zDT02ZDBl')
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001956887092'))
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+VEMz7vS7VtFmMDI1')
 
 # This is required for the plugins involving the file system.
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
@@ -74,8 +74,8 @@ COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '15c728d0af696e2c4751e0d3a965a0652b393ea7')
 
 
 # Others
@@ -88,11 +88,11 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "7")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "False")), False)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+8vZTQtzo0lBmNDY9')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+e_UqPGvuQ5E5NGU1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+oZ27l2vnexphZTVl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SAM_DUB_LEZHa')
 MSG_ALRT = environ.get('MSG_ALRT', 'Piracy Is Crime')
 NOR_ALRT =  environ.get('NOR_ALRT', 'NO IMAGES IS FOUND')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868871195'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002139585101'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Nothing_Support_Group')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
@@ -110,14 +110,14 @@ LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False")
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002101619333')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #redict
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/netflix_complex")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+kdCUBx0zDT02ZDBl")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/SAM_DUB_LEZHa")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+oZ27l2vnexphZTVl")
 MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 
